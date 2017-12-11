@@ -1,11 +1,11 @@
 // Body
-$body-bg: #f9f9fb;
+$body-bg: #fff;
 
 // Typography
 $font-family-sans-serif: "lato-regular", "Helvetica Neue", Helvetica, Arial, "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
 $font-size-base: 14px;
 $line-height-base: 1.6;
-$text-color: #636b6f;
+$text-color: #fff;
 
 $font-size-h1:              floor(($font-size-base * 3.444)); // ~62px
 $font-size-h2:              ceil(($font-size-base * 2.889)); // ~52px
@@ -28,7 +28,7 @@ $headings-color:            inherit;
 $btn-default-color: $text-color;
 
 // Colors
-$default-color:  #52697f;
+$default-color:  #ffffff;
 
 $turquoise:      #1abc9c;
 $green-sea:      #16a085;
