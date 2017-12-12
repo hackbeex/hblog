@@ -14,7 +14,7 @@
     padding: 0;
     margin: 0;
     display: inline-block;
-    border-radius: 6px;
+    border-radius: 0;
     word-spacing: -0.5px;
 }
 @media (max-width: 767px) {
@@ -23,7 +23,7 @@
         padding: 0 55px 0 52px;
         overflow: auto;
         white-space: nowrap;
-        border-radius: 6px;
+        border-radius: 0;
     }
 }
 .pagination li {
@@ -60,7 +60,7 @@
 }
 .pagination li:first-child > a,
 .pagination li:first-child > span {
-    border-radius: 6px 0 0 6px;
+    border-radius: 0;
     border-left: none;
 }
 .pagination li:first-child.previous + li > a,
@@ -76,7 +76,7 @@
 .pagination li:last-child > span:hover,
 .pagination li:last-child > a:focus,
 .pagination li:last-child > span:focus {
-    border-radius: 0 6px 6px 0;
+    border-radius: 0;
 }
 .pagination li.previous > a,
 .pagination li.next > a,
@@ -116,12 +116,12 @@
         right: 0;
         top: 0;
         z-index: 10;
-        border-radius: 0 6px 6px 0;
+        border-radius: 0;
     }
     .pagination li.previous {
         left: 0;
         right: auto;
-        border-radius: 6px 0 0 6px;
+        border-radius: 0;
     }
 }
 .pagination li > a,
@@ -183,7 +183,7 @@
     }
     .pagination > .btn:first-child {
         border-bottom: 2px solid #dfe2e5;
-        border-radius: 6px 0 0;
+        border-radius: 0;
     }
     .pagination > .btn:first-child.btn-primary {
         border-bottom-color: #48c9b0;
@@ -209,14 +209,14 @@
     .pagination > .btn + ul {
         padding: 0;
         text-align: center;
-        border-radius: 0 0 6px 6px;
+        border-radius: 0;
     }
     .pagination > .btn + ul + .btn {
         border-bottom: 2px solid #dfe2e5;
         position: absolute;
         right: 0;
         top: 0;
-        border-radius: 0 6px 0 0;
+        border-radius: 0;
     }
     .pagination > .btn + ul + .btn.btn-primary {
         border-bottom-color: #48c9b0;
@@ -247,14 +247,14 @@
     }
 }
 .pagination-minimal > ul > li:first-child {
-    border-radius: 6px 0 0 6px;
+    border-radius: 0;
 }
 .pagination-minimal > ul > li:first-child.previous + li > a,
 .pagination-minimal > ul > li:first-child.previous + li > span {
     border-left-width: 5px !important;
 }
 .pagination-minimal > ul > li:last-child {
-    border-radius: 0 6px 6px 0;
+    border-radius: 0;
 }
 .pagination-minimal > ul > li.previous > a,
 .pagination-minimal > ul > li.next > a,
@@ -265,7 +265,7 @@
     border-right: 2px solid #e4e7ea;
     margin: 0 9px 0 0;
     padding: 15px 17px;
-    border-radius: 6px 0 0 6px;
+    border-radius: 0;
 }
 .pagination-minimal > ul > li.previous > a,
 .pagination-minimal > ul > li.next > a,
@@ -297,7 +297,7 @@
     border-left: 2px solid #e4e7ea;
     border-right: none;
     margin: 0;
-    border-radius: 0 6px 6px 0;
+    border-radius: 0;
 }
 .pagination-minimal > ul > li.active > a,
 .pagination-minimal > ul > li.active > span {

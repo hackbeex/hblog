@@ -16,7 +16,15 @@
 .navbar-collapse {
   border: none;
 }
-
+.dropdown-menu > li > a{
+    color: #1f1f1f;
+}
+.navbar-default .navbar-nav .open .dropdown-menu > li > a{
+    color: #1f1f1f;
+}
+.navbar-default .navbar-toggle .icon-bar{
+    background-color: #1f1f1f;
+}
 .notification {
   .ion-android-notifications {
 	position: relative;

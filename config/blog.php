@@ -33,8 +33,8 @@ return [
 
     // Article Page
     'article' => [
-        'title'       => 'Nothing is impossible.',
-        'description' => 'https://pigjian.com',
+        'title'       => 'Hackbee的日常',
+        'description' => '不思则罔，不学则殆',
         'number'      => 15,
         'sort'        => 'desc',
         'sortColumn'  => 'published_at',

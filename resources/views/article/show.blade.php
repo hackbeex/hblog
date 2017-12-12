@@ -4,10 +4,7 @@
 
 @section('content')
     @component('particals.jumbotron')
-        <h4>{{ $article->title }}</h4>
-
-        <h6>{{ $article->subtitle }}</h6>
-
+        <h3 class="post-title">{{ $article->title }}</h3>
         <div class="header">
             <i class="ion-person"></i>{{ $article->user->name or 'null' }}，
             @if(count($article->tags))
@@ -16,7 +13,7 @@
                     <a href="{{ url('tag', ['tag' => $tag->tag]) }}">{{ $tag->tag }}</a>，
                 @endforeach
             @endif
-            <i class="ion-clock"></i>{{ $article->published_at->diffForHumans() }}
+            <i class="ion-clock"></i>{{ $article->published_at->toFormattedDateString() }}
         </div>
     @endcomponent
 

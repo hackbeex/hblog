@@ -1,14 +1,14 @@
 <div class="container list">
     <div class="row">
-        <div class="col-md-10 col-md-offset-1">
+        <div class="col-md-8 col-md-offset-2">
             @forelse($articles as $article)
             <div class="media">
+                <div class="time">{{ $article->published_at->toFormattedDateString() }}</div>
                 <div class="title">
                     <a href="{{ url($article->slug) }}">
                         {{ $article->title }}
                     </a>
                 </div>
-                <div class="time">{{ $article->published_at->toFormattedDateString() }}</div>
                 <div class="info">
                     <i class="ion-person"></i>{{ $article->user->name or 'null' }}&nbsp;,&nbsp;
                     <i class="ion-ios-eye"></i>{{ $article->view_count }}

@@ -11,6 +11,12 @@
 @import "_toastr";
 @import "_togglebutton";
 
+body{
+    color: #1f1f1f;
+}
+.navbar-inverse .navbar-nav > li > a{
+    color: #1f1f1f;
+}
 .width-5-percent {
     width: 5%;
 }

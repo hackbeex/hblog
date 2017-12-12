@@ -32,7 +32,7 @@ footer{
 }
 a:hover {
     text-decoration: none;
-    color: #1c1c1c;
+    color: #18bc9c;
 }
 textarea {
     resize: none;
@@ -48,7 +48,14 @@ textarea {
         padding-top: 30px;
         padding-bottom: 30px;
         background-color: #fff;
-        color: #1f1f1f;
+        color: rgba(31, 31, 31, .6);
+        h3 span {
+            padding-bottom: 5px;
+            border-bottom: 1px solid rgba(31, 31, 31, .4);
+        }
+        h6 {
+            padding-top: 10px;
+        }
     }
 }
 i.large {
@@ -75,21 +82,27 @@ i.large {
 .main {
     margin-bottom: 30px;
 }
+legend {
+    color: #1f1f1f;
+}
 
 // Article Show Page
 .article .social-share {
     margin-bottom: 20px;
 }
+.post-title{
+    color: #636b6f;
+}
 .header {
     margin-top: 10px;
-
+    color: rgba(31, 31, 31, .5);
     i{
         padding-right: 8px;
     }
     a {
         font-size: 16px;
-        color: #1f1f1f;
         text-decoration: none;
+        color: rgba(31, 31, 31, .5);
     }
     a:hover {
         color: #18bc9c;
@@ -247,11 +260,9 @@ i.large {
 
     input{
         color: #1f1f1f;
-        border: 2px solid #fff;
-        background-color: transparent;
-    }
-    input:focus {
-        border-color: #fff;
+        border: 0;
+        background-color: rgba(31, 31, 31, 0.05);
+        border-radius: 0;
     }
 }
 .divider {
@@ -263,6 +274,7 @@ i.large {
     background-color: #fff;
     color: #1f1f1f;
     margin-top: 30px;
+    border-top: 1px solid #ddd;
 
     .copy-right {
         background-color: $default-color;
@@ -277,11 +289,11 @@ i.large {
         display: inline-block;
     }
     a {
-        color: #fff;
+        color: #1f1f1f;
         text-decoration: none;
     }
     a:hover {
-        color: #0f0f0f;
+        color: #18bc9c;
     }
 }
 .content {
@@ -400,7 +412,7 @@ i.large {
 /* Article List */
 .list {
     .media {
-        margin-top: 120px;
+        margin-top: 50px;
         padding: 2em 0;
         font-size: 16px;
         line-height: 1.6em;
@@ -434,7 +446,7 @@ i.large {
         .info {
             text-align: center;
             color: rgba(31, 31, 31, .5);
-            font-size: 0.8em;
+            font-size: 0.9em;
             margin: 6px 0 36px;
             i {
                 margin-left: .4em;
@@ -514,7 +526,7 @@ i.large {
 @media (max-width: 767px) {
     .list {
         .media {
-            margin-top: 40px;
+            margin-top: 30px;
             .info {
                 margin-bottom: 0;
             }
@@ -542,7 +554,7 @@ i.large {
     a {
         display: block;
         text-align: center;
-        color: #fff;
+        color: #1f1f1f;
     }
     a.counter {
         font-size: 28px;
@@ -679,10 +691,10 @@ img.emojione {
 
             i {
                 padding-left: 8px;
-                padding-right: 8x;
+                padding-right: 8px;
             }
             &:hover {
-                background-color: #efefef;
+                background-color: #18bc9c;
             }
         }
     }
