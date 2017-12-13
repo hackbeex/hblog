@@ -67,6 +67,9 @@ Route::group(['prefix' => 'dashboard', 'middleware' => ['auth', 'admin']], funct
    Route::get('{path?}', 'HomeController@dashboard')->where('path', '[\/\w\.-]*');
 });
 
+// Home
+Route::get('/', 'HomeController@index');
+
 // Article
-Route::get('/', 'ArticleController@index');
+Route::get('/articles', 'ArticleController@index');
 Route::get('{slug}', 'ArticleController@show');

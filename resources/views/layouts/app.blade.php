@@ -20,23 +20,23 @@
     <script>
         window.Language = '{{ config('app.locale') }}';
 
-        window.Laravel = <?php echo json_encode([
-            'csrfToken' => csrf_token(),
-        ]); ?>
+        window.Laravel = <?php echo json_encode(['csrfToken' => csrf_token()]); ?>;
     </script>
 
     @yield('styles')
 </head>
 <body>
-    <div id="app">
-        @include('particals.navbar')
+    @section('body')
+        <div id="app">
+            @include('particals.navbar')
 
-        <div class="main">
-            @yield('content')
+            <div class="main">
+                @yield('content')
+            </div>
+
+            @include('particals.footer')
         </div>
-
-        @include('particals.footer')
-    </div>
+    @show
 
     <!-- Scripts -->
     <script src="{{ mix('js/home.js') }}"></script>

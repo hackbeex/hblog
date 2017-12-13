@@ -19,7 +19,7 @@
         <div class="collapse navbar-collapse" id="app-navbar-collapse">
             <!-- Left Side Of Navbar -->
             <ul class="nav navbar-nav">
-                <li><a href="{{ url('/') }}">{{ lang('Articles') }}</a></li>
+                <li><a href="{{ url('/articles') }}">{{ lang('Articles') }}</a></li>
                 <li><a href="{{ url('discussion') }}">{{ lang('Discussions') }}</a></li>
             </ul>
 
