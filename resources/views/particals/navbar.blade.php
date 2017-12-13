@@ -20,7 +20,9 @@
             <!-- Left Side Of Navbar -->
             <ul class="nav navbar-nav">
                 <li><a href="{{ url('/articles') }}">{{ lang('Articles') }}</a></li>
-                <li><a href="{{ url('discussion') }}">{{ lang('Discussions') }}</a></li>
+                @if(config('blog.discussion.open'))
+                    <li><a href="{{ url('discussion') }}">{{ lang('Discussions') }}</a></li>
+                @endif
             </ul>
 
             <!-- Right Side Of Navbar -->
@@ -28,7 +30,7 @@
                 <!-- Search Box -->
                 <li>
                     <form class="navbar-form navbar-right search" role="search" method="get" action="{{ url('search') }}">
-                        <input type="text" class="form-control" name="q" placeholder="{{ lang('Search') }}" required>
+                        <input type="text" class="form-control" name="q" placeholder="Search For ..." required>
                     </form>
                 </li>
 

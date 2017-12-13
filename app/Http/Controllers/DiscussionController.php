@@ -22,6 +22,8 @@ class DiscussionController extends Controller
     {
         $this->middleware('auth')->except(['index', 'show']);
 
+        !config('blog.discussion.open') && abort(404);
+
         $this->discussion = $discussion;
         $this->tag = $tag;
     }

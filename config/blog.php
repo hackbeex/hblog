@@ -42,6 +42,7 @@ return [
 
     // Discussion Page
     'discussion' => [
+        'open' => true,
         'number' => 20,
         'sort'   => 'desc',
         'sortColumn' => 'created_at',

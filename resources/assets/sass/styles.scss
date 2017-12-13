@@ -255,14 +255,29 @@ legend {
         border-radius: 25%;
     }
 }
+
 .search {
     margin-right: 5px;
-
     input{
         color: #1f1f1f;
         border: 0;
-        background-color: rgba(31, 31, 31, 0.05);
+        border-bottom: 1px solid rgba(31, 31, 31, 0.6);
         border-radius: 0;
+    }
+    input::-webkit-input-placeholder{
+        color: rgba(31, 31, 31, 0.6);
+    }
+    input:-moz-placeholder{
+        color: rgba(31, 31, 31, 0.6);
+    }
+    input::-moz-placeholder{
+        color: rgba(31, 31, 31, 0.6);
+    }
+    input:-ms-input-placeholder{
+        color: rgba(31, 31, 31, 0.6);
+    }
+    .form-control {
+        width: 125px;
     }
 }
 .divider {
