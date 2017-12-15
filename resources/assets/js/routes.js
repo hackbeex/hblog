@@ -151,6 +151,10 @@ export default [
                 component: () => import('dashboard/System.vue')
             },
             {
+                path: 'site',
+                component: () => import('dashboard/site/About.vue')
+            },
+            {
                 path: '*',
                 redirect: '/dashboard'
             }

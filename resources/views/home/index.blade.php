@@ -61,7 +61,7 @@
             {{ config('blog.article.description') }}
         </div>
         <div class="links">
-            <a href="{{ url('articles') }}">His Blog</a>
+            <a href="{{ url('articles') }}">My Blog</a>
             @if(config('blog.footer.github.open'))
                 <a target="_blank" href="{{ config('blog.footer.github.url') }}">GitHub</a>
             @endif

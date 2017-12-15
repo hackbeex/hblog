@@ -23,6 +23,9 @@
                 @if(config('blog.discussion.open'))
                     <li><a href="{{ url('discussion') }}">{{ lang('Discussions') }}</a></li>
                 @endif
+                @if(config('blog.about.open'))
+                    <li><a href="{{ url('about') }}">{{ lang('About') }}</a></li>
+                @endif
             </ul>
 
             <!-- Right Side Of Navbar -->

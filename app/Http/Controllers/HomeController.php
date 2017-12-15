@@ -42,6 +42,13 @@ class HomeController extends Controller
 
     public function index()
     {
-        return view('index.index');
+        return view('home.index');
+    }
+
+    public function about()
+    {
+        !config('blog.about.open') && abort(404);
+
+        return view('home.about');
     }
 }

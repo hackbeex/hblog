@@ -48,6 +48,11 @@ return [
         'sortColumn' => 'created_at',
     ],
 
+    // About Me
+    'about' => [
+        'open' => true,
+    ],
+
     // Footer
     'footer' => [
         'github' => [

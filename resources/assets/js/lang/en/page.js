@@ -4,6 +4,7 @@ export default {
     articles: 'Articles',
     comments: 'Comments',
     discussions: 'Discussions',
+    about: 'About',
     files: 'Files',
     tags: 'Tags',
     categories: 'Categories',

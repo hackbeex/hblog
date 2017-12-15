@@ -9,5 +9,6 @@ export default {
     category: 'Categories',
     link: 'Links',
     visitor: 'Visitors',
-    system: 'Systems'
+    system: 'Systems',
+    site: 'Site',
 }

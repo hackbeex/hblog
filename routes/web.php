@@ -69,6 +69,7 @@ Route::group(['prefix' => 'dashboard', 'middleware' => ['auth', 'admin']], funct
 
 // Home
 Route::get('/', 'HomeController@index');
+Route::get('/about', 'HomeController@about');
 
 // Article
 Route::get('/articles', 'ArticleController@index');

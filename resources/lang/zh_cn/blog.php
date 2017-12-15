@@ -1,6 +1,7 @@
 <?php
 
 return [
+    'About'       => '关于',
     'Articles'    => '文章',
     'Article'    => '文章',
     'Discussions' => '讨论',

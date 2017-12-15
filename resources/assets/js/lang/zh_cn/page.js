@@ -4,6 +4,7 @@ export default {
     articles: '文章列表',
     comments: '评论列表',
     discussions: '讨论列表',
+    about: '关于',
     files: '文件列表',
     tags: '标签列表',
     categories: '分类列表',
