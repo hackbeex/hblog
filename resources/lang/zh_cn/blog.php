@@ -70,6 +70,7 @@ return [
     'Links'                => '友情链接',
     'Contact Me'           => '联系我',
     'About Me'             => '关于我',
+    'No About Me'          => '这个人很懒，什么也没介绍~',
     'Tags'                 => '所有标签',
     'Tag Meta'             => '标签下所有文章和讨论',
     'Tags Meta'            => '所有文章和讨论的标签',

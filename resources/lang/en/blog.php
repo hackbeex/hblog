@@ -70,6 +70,7 @@ return [
     'Links'                => 'Links',
     'Contact Me'           => 'Contact Me',
     'About Me'             => 'ABOUT ME',
+    'No About Me'          => 'This guy is lazy and says nothing ~',
     'Tags'                 => 'Tags',
     'Tag Meta'             => 'All the articles and discussions for the tag.',
     'Tags Meta'            => 'The categories for all the articles and the discussions.',

@@ -30,22 +30,31 @@
             margin-bottom: 15vh;
         }
         .title {
-            font-size: 40px;
+            font-size: 45px;
+            line-height: 1em;
+
         }
         .description {
             margin: 30px 0;
-            font-size: 22px;
+            font-size: 20px;
+            line-height: 1em;
+            letter-spacing: .05em;
         }
         .links > a {
-            color: rgba(31, 31, 31, .7);
-            padding: 0 25px;
+            display: inline-block;
+            color: rgba(31, 31, 31, .6);
+            background-color: white;
+            padding: 8px 20px;
+            border-radius: 22px;
+            border: 1px solid rgba(31, 31, 31, 0.2);
             font-size: 14px;
             letter-spacing: .1rem;
             text-decoration: none;
             text-transform: uppercase;
+            margin: 0 10px;
         }
         .links > a:hover {
-            color: #18bc9c;
+            color: #1abc9c;
         }
     </style>
 @endsection
