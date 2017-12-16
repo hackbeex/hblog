@@ -3,7 +3,8 @@
         <form class="form-horizontal col-md-9 col-md-offset-1" @submit.prevent="onSubmit">
             <div class="col-sm-12">
                 <div class="form-group">
-                    <div class="col-sm-12">
+                    <label class="col-sm-2 control-label">{{ $t('form.about') }}</label>
+                    <div class="col-sm-10">
                         <textarea id="editor"></textarea>
                     </div>
                 </div>
@@ -44,8 +45,8 @@ export default {
     computed: {
     },
     watch: {
-        article() {
-            this.simplemde.value(this.article.content);
+        about() {
+            this.simplemde.value(this.about.content);
         }
     },
     mounted() {
@@ -61,8 +62,8 @@ export default {
     },
     methods: {
         onSubmit() {
-            this.article.content = this.simplemde.value();
-            this.$http.post(url, this.article)
+            this.about.content = this.simplemde.value();
+            this.$http.post('about/update', this.about)
                 .then((response) => {
                     toastr.success('You edit the about-me success!');
                 }).catch(({response}) => {

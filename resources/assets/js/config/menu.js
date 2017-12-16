@@ -53,5 +53,10 @@ export default [
         label: 'sidebar.system',
         icon : 'ion-gear-b',
         uri  : '/dashboard/system'
+    },
+    {
+        label: 'sidebar.site',
+        icon : 'ion-monitor',
+        uri  : '/dashboard/site'
     }
 ]

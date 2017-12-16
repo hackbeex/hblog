@@ -1,8 +1,5 @@
 <template>
-    <vue-form :title="$t('form.edit_article')">
-        <div slot="buttons">
-            <router-link to="/dashboard/site" class="btn btn-default" exact>{{ $t('form.back') }}</router-link>
-        </div>
+    <vue-form :title="$t('page.site')">
         <div slot="content">
             <about-form :about="about"></about-form>
         </div>
@@ -20,9 +17,9 @@ export default {
         }
     },
     created() {
-        this.$http.get('about').then((response) => {
-            this.about = response.data.data
-        })
+        this.$http.get('about/edit').then((response) => {
+            this.about = response.data;
+        });
     },
 }
 </script>

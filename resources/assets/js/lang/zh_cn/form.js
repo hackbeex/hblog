@@ -63,5 +63,5 @@ export default {
     'discussion': '讨论',
     'comment': '评论',
     'published_at': '发布时间？',
-
+    'about': '关于我',
 }

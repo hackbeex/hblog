@@ -41,6 +41,9 @@ Route::group([
     Route::post('file/delete', 'UploadController@deleteFile');
 
     Route::get('system', 'SystemController@getSystemInfo');
+
+    Route::get('about/edit', 'AboutController@edit');
+    Route::post('about/update', 'AboutController@update');
 });
 
 Route::group([

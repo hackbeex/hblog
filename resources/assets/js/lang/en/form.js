@@ -63,5 +63,5 @@ export default {
     'discussion': 'discussion',
     'comment': 'comment',
     'published_at': 'Published At?',
-
+    'about': 'About Me'
 }
