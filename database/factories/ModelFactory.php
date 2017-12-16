@@ -50,7 +50,7 @@ $factory->define(App\Article::class, function (Faker\Generator $faker) {
         'title'    => $title,
         'content'  => $faker->paragraph,
         'page_image'       => $faker->imageUrl(),
-        'meta_description' => $faker->sentence,
+        'meta_description' => $faker->sentence(30),
         'is_draft'         => false,
         'published_at'     => $faker->dateTimeBetween($startDate = '-2 months', $endDate = 'now')
     ];

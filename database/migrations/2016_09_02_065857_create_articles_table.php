@@ -20,10 +20,9 @@ class CreateArticlesTable extends Migration
             $table->integer('last_user_id')->unsigned();
             $table->string('slug')->unique();
             $table->string('title');
-            // $table->json('content');
             $table->text('content');
             $table->string('page_image')->nullable();
-            $table->string('meta_description')->nullable();
+            $table->text('meta_description')->nullable();
             $table->boolean('is_original')->default(false);
             $table->boolean('is_draft')->default(false);
             $table->integer('view_count')->unsigned()->default(0)->index();

@@ -94,16 +94,6 @@ class Article extends Model
     }
 
     /**
-     * Get the config for the configuration.
-     *
-     * @return \Illuminate\Database\Eloquent\Relations\morphMany
-     */
-    public function config()
-    {
-        return $this->morphMany(Configuration::class, 'configuration');
-    }
-
-    /**
      * Get the created at attribute.
      *
      * @param $value
