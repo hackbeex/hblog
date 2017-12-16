@@ -17,7 +17,6 @@ class ArticleTransformer extends TransformerAbstract
         return [
             'id'                => $article->id,
             'title'             => $article->title,
-            'subtitle'          => $article->subtitle,
             'user'              => $article->user,
             'slug'              => $article->slug,
             'content'           => $article->content['raw'],

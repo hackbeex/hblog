@@ -21,12 +21,6 @@
                     </div>
                 </div>
                 <div class="form-group">
-                    <label for="subtitle" class="col-sm-2 control-label">{{ $t('form.subtitle') }}</label>
-                    <div class="col-sm-10">
-                        <input type="text" id="subtitle" name="subtitle" v-model="article.subtitle" class="form-control">
-                    </div>
-                </div>
-                <div class="form-group">
                     <label for="page_image" class="col-sm-2 control-label">{{ $t('form.page_image') }}</label>
                     <div class="col-sm-5">
                         <input type="text" id="page_image" class="form-control" name="page_image" v-model="article.page_image" placeholder="ex: /uploads/default_avatar.png">

@@ -20,7 +20,6 @@ class CreateArticlesTable extends Migration
             $table->integer('last_user_id')->unsigned();
             $table->string('slug')->unique();
             $table->string('title');
-            $table->string('subtitle');
             // $table->json('content');
             $table->text('content');
             $table->string('page_image')->nullable();

@@ -13,7 +13,7 @@ class ArticleApiTest extends TestCase
 
         $response->assertStatus(200);
         $response->assertJsonStructure([
-            'data' => ['*' => ['id', 'title', 'subtitle', 'user', 'slug', 'content', 'page_image', 'meta_description', 'is_original', 'is_draft', 'visitors', 'published_at', 'published_time']],
+            'data' => ['*' => ['id', 'title', 'user', 'slug', 'content', 'page_image', 'meta_description', 'is_original', 'is_draft', 'visitors', 'published_at', 'published_time']],
             'meta' => ['pagination' => []],
         ]);
     }
