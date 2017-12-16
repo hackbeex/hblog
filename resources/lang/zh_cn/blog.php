@@ -73,6 +73,7 @@ return [
     'Tags'                 => '所有标签',
     'Tag Meta'             => '标签下所有文章和讨论',
     'Tags Meta'            => '所有文章和讨论的标签',
+    'Tags Title'           => '标签',
     'For Articles'         => '文章',
     'For Discussions'      => '讨论',
     'Categories'           => '所有分类',

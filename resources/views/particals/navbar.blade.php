@@ -20,6 +20,9 @@
             <!-- Left Side Of Navbar -->
             <ul class="nav navbar-nav">
                 <li><a href="{{ url('/articles') }}">{{ lang('Articles') }}</a></li>
+                @if(config('blog.tag.show'))
+                    <li><a href="{{ url('tag') }}">{{ lang('Tags Title') }}</a></li>
+                @endif
                 @if(config('blog.discussion.open'))
                     <li><a href="{{ url('discussion') }}">{{ lang('Discussions') }}</a></li>
                 @endif

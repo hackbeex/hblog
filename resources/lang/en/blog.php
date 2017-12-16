@@ -73,6 +73,7 @@ return [
     'Tags'                 => 'Tags',
     'Tag Meta'             => 'All the articles and discussions for the tag.',
     'Tags Meta'            => 'The categories for all the articles and the discussions.',
+    'Tags Title'           => 'Tags',
     'For Articles'         => 'For Articles',
     'For Discussions'      => 'For Discussions',
     'Categories'           => 'Categories',

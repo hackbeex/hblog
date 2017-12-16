@@ -48,6 +48,10 @@ return [
         'sortColumn' => 'created_at',
     ],
 
+    'tag' => [
+        'show' => true,
+    ],
+
     // About Me
     'about' => [
         'open' => true,
