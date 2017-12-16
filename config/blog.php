@@ -52,6 +52,10 @@ return [
         'show' => true,
     ],
 
+    'category' => [
+        'show' => true,
+    ],
+
     // About Me
     'about' => [
         'open' => true,

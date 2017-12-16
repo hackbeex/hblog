@@ -79,6 +79,7 @@ return [
     'Categories'           => 'Categories',
     'Categories Meta'      => 'The categories for all the articles.',
     'Category Meta'        => 'All the articles for the category.',
+    'Categories Title'     => 'Categories',
     'Nothing'              => 'Nothing in here...',
     'Forbidden'            => 'The record was forbidden to show!!!',
     'Discuss Title'        => 'Title',

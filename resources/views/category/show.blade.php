@@ -14,6 +14,7 @@
                     @forelse($articles as $article)
                         <li class="list-group-item">
                             <span class="badge">{{ $article->comments->count() }}</span>
+                            <span class="pull-right" style="color: rgba(31, 31, 31, 0.6);">{{ $article->published_at->diffForHumans() }} &nbsp;</span>
                             <a href="{{ url($article->slug) }}">{{ $article->title }}</a>
                         </li>
                     @empty
