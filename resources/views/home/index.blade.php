@@ -7,6 +7,9 @@
         body {
             margin: 0;
             padding: 0;
+            /*font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;*/
+            /*font-family: 'Lato', sans-serif;*/
+            font-family: 'Raleway', "lato-regular", "Helvetica Neue", Helvetica, Arial, "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
         }
         #particles {
             position: absolute;

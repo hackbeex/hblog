@@ -87,9 +87,13 @@ legend {
 }
 
 // Article Show Page
-.article .social-share {
-    margin-bottom: 20px;
+.article {
+    font-family: Consolas, $font-family-sans-serif;
+    .social-share {
+        margin-bottom: 20px;
+    }
 }
+
 .post-title{
     color: #636b6f;
 }
@@ -224,7 +228,7 @@ legend {
 
 // Navbar
 .navbar {
-    font-family: Lato, "微软雅黑", 'Helvetica Neue', Arial, Helvetica,  sans-serif;
+    font-family: 'Raleway', $font-family-sans-serif;
     border: none;
 }
 .navbar-nav > li > .dropdown-menu {
@@ -431,9 +435,10 @@ legend {
         padding: 2em 0;
         font-size: 16px;
         line-height: 1.6em;
-        letter-spacing: .2px;
+        letter-spacing: 1px;
         font-weight: 300;
         font-style: normal;
+        font-family: 'Raleway', $font-family-sans-serif;
 
         &:first-child {
             margin-top: 30px !important;
