@@ -52,7 +52,7 @@
             padding: 8px 20px;
             border-radius: 22px;
             border: 1px solid rgba(31, 31, 31, 0.2);
-            font-size: 14px;
+            font-size: 13px;
             letter-spacing: .1rem;
             text-decoration: none;
             text-transform: uppercase;

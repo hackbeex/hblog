@@ -25,11 +25,13 @@ This blog built with `Laravel 5.*` and `Vuejs 2.*`, compared to origin blog, I t
 
 ## Preview
 
-![New Blog](https://raw.githubusercontent.com/hackbeex/p/master/hblog/demo1.jpg)
+![](https://raw.githubusercontent.com/hackbeex/p/master/hblog/demo1.jpg)
 
-![New Blog](https://raw.githubusercontent.com/hackbeex/p/master/hblog/demo2.jpg)
+![](https://raw.githubusercontent.com/hackbeex/p/master/hblog/demo2.jpg)
 
-![New Blog](https://raw.githubusercontent.com/hackbeex/p/master/hblog/demo3.jpg)
+![](https://raw.githubusercontent.com/hackbeex/p/master/hblog/demo3.jpg)
+
+![](https://raw.githubusercontent.com/hackbeex/p/master/hblog/demo4.jpg)
 
 ## Install
 

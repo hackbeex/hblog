@@ -67,6 +67,10 @@ return [
             'open' => true,
             'url'  => 'https://github.com/hackbeex',
         ],
+        'weibo' => [
+            'open' => true,
+            'url'  => 'https://weibo.com/hackbee'
+        ],
         'twitter' => [
             'open' => true,
             'url'  => 'https://twitter.com/hackbeex'
