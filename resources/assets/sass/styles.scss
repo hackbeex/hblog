@@ -480,6 +480,8 @@ legend {
         .media-right {
             img {
                 width: 200px;
+                box-shadow: 0 0 10px #eee;
+                margin: 5px 5px 0 0;
             }
             max-height: 140px;
             overflow: hidden;
